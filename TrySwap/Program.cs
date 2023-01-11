@@ -10,24 +10,27 @@ namespace TrySwap
 	{
 		static void Main(string[] args)
 		{
-			var result1 = TrySwap<int>.SwapCompare(2, 100);
-			var result2 = TrySwap<int>.SwapCompare(100, 2);
-			Console.WriteLine(result1);
-			Console.WriteLine(result2);
+			int v1 = 2;
+			int v2 = 100;
+			
+			Swap(ref v1, ref v2);
+			Console.WriteLine(string.Format("{0},{1}",v1, v2));
+			Console.WriteLine(string.Format("{0},{1}", v2, v1));
+			
 			Console.ReadKey();
 		}
 
+		
 
-		public class TrySwap<T> where T : IComparable
+		private static void Swap<T>(ref T v1, ref T v2)
 		{
-			public static T SwapCompare(T vaule1, T value2)
-			{
-				if (vaule1.CompareTo(value2) > 0)
-				{
-					return vaule1;
-				}
-				else { return value2; }
-
-			}
+			T temp=v1;
+			v1=v2;
+			v2=temp;		
 		}
+	
+
+	}
+
+	
 }
