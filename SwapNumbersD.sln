@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapNumbersD", "SwapNumbers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrySwap", "TrySwap\TrySwap.csproj", "{40376A7B-6EA5-4D94-B837-826518F97D16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrySwap2", "TrySwap2\TrySwap2.csproj", "{02EE5178-D90C-41A9-BFD8-96BDEC9CA820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrySwap3", "TrySwap3\TrySwap3.csproj", "{B42E846A-C6D4-452F-914C-831A96059024}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{40376A7B-6EA5-4D94-B837-826518F97D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40376A7B-6EA5-4D94-B837-826518F97D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40376A7B-6EA5-4D94-B837-826518F97D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EE5178-D90C-41A9-BFD8-96BDEC9CA820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EE5178-D90C-41A9-BFD8-96BDEC9CA820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EE5178-D90C-41A9-BFD8-96BDEC9CA820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EE5178-D90C-41A9-BFD8-96BDEC9CA820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B42E846A-C6D4-452F-914C-831A96059024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42E846A-C6D4-452F-914C-831A96059024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42E846A-C6D4-452F-914C-831A96059024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42E846A-C6D4-452F-914C-831A96059024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
